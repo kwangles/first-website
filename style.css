@@ -1,0 +1,69 @@
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* font type ^^^*/
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+/* horizontally and vertically aligns the image and words^^^ */
+
+  color: #333;
+  /* font color ^^^ */
+  background: linear-gradient(to right, #e55d87, #5fc3e4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+  /* color of the background ^^^ */
+}
+
+.card {
+  border: 4px solid rgb(104, 96, 212);
+  /* color of the border of the box ^^^ */
+  padding: 16px;
+  /* ensures that the words in box aren't on the edges of the box^^^ */
+  box-shadow: 5.5px 5.5px #e55d8885;
+  /* size and color of the shadow of the box ^^^ */
+  border-radius: 6px;
+}
+
+/* color of the title and hello font in dark mode */
+.dark {
+  color: #5851DB;
+  background: linear-gradient(to right, #000000, #09112b, #18043f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* color of the about me font in dark mode */
+.dark > .card > a {
+  color: aliceblue;
+}
+
+
+img {
+  height: 250px;
+  /* height of the selfie ^^^ */
+  /* border-radius: 50%; */
+}
+
+a{
+  color:aliceblue;
+  text-decoration: none;
+}
+/* color of the About Me link ^^^*/
+
+.socials {
+  padding : 16px 100px;
+}
+/* pads the space between social icons and About Me ^^^*/
+
+#instagram {
+  color: #5851DB;
+}
+/* color of the insta logo */
+
+.form {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  margin: 15px 0px;
+}
